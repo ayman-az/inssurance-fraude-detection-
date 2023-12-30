@@ -1,0 +1,39 @@
+[ {
+  "baseItem" : {
+    "id" : "_HfOpwJB3Ee6WyucDZQKNpQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_DWQCMJB3Ee6WyucDZQKNpQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_J_b5gJBzEe6Jwo8qaXkUFQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DWQCMJB3Ee6WyucDZQKNpQ - insurrance",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_J_b5gJBzEe6Jwo8qaXkUFQ - datawarehouse",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bjPq8JxaEe6G4r37PosxSw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_DWQCMJB3Ee6WyucDZQKNpQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DWQCMJB3Ee6WyucDZQKNpQ - insurrance",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

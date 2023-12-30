@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_DWQpQJB3Ee6WyucDZQKNpQ" name="inssurance" id="_DWQCMJB3Ee6WyucDZQKNpQ" dataPackage="_DWQpQZB3Ee6WyucDZQKNpQ _CFGW0J8yEe6Fn7Ql7YTNPA" Server="Localhost 127.0.0.1" FilePath="E:/GI5 BI/Insurance claims — Fraud detection/insurance_claims.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DWQpQZB3Ee6WyucDZQKNpQ" name="default" dataManager="_DWQpQJB3Ee6WyucDZQKNpQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DWRQUJB3Ee6WyucDZQKNpQ" id="_3OUR8JB0Ee6WyucDZQKNpQ" label="insurrance">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQUZB3Ee6WyucDZQKNpQ" label="months_as_customer" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQUpB3Ee6WyucDZQKNpQ" label="age" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQU5B3Ee6WyucDZQKNpQ" label="policy_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQVJB3Ee6WyucDZQKNpQ" label="policy_bind_date" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQVZB3Ee6WyucDZQKNpQ" label="policy_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQVpB3Ee6WyucDZQKNpQ" label="policy_csl" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQV5B3Ee6WyucDZQKNpQ" label="policy_deductable" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQWJB3Ee6WyucDZQKNpQ" label="policy_annual_premium" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQWZB3Ee6WyucDZQKNpQ" label="umbrella_limit" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQWpB3Ee6WyucDZQKNpQ" label="insured_zip" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQW5B3Ee6WyucDZQKNpQ" label="insured_sex" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQXJB3Ee6WyucDZQKNpQ" label="insured_education_level" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQXZB3Ee6WyucDZQKNpQ" label="insured_occupation" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQXpB3Ee6WyucDZQKNpQ" label="insured_hobbies" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQX5B3Ee6WyucDZQKNpQ" label="insured_relationship" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQYJB3Ee6WyucDZQKNpQ" label="capital_gains" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQYZB3Ee6WyucDZQKNpQ" label="capital_loss" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQYpB3Ee6WyucDZQKNpQ" label="incident_date" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQY5B3Ee6WyucDZQKNpQ" label="incident_type" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQZJB3Ee6WyucDZQKNpQ" label="collision_type" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQZZB3Ee6WyucDZQKNpQ" label="incident_severity" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQZpB3Ee6WyucDZQKNpQ" label="authorities_contacted" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQZ5B3Ee6WyucDZQKNpQ" label="incident_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQaJB3Ee6WyucDZQKNpQ" label="incident_city" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQaZB3Ee6WyucDZQKNpQ" label="incident_location" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQapB3Ee6WyucDZQKNpQ" label="incident_hour_of_the_day" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQa5B3Ee6WyucDZQKNpQ" label="number_of_vehicles_involved" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQbJB3Ee6WyucDZQKNpQ" label="property_damage" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQbZB3Ee6WyucDZQKNpQ" label="bodily_injuries" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQbpB3Ee6WyucDZQKNpQ" label="witnesses" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQb5B3Ee6WyucDZQKNpQ" label="police_report_available" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQcJB3Ee6WyucDZQKNpQ" label="total_claim_amount" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQcZB3Ee6WyucDZQKNpQ" label="injury_claim" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQcpB3Ee6WyucDZQKNpQ" label="property_claim" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQc5B3Ee6WyucDZQKNpQ" label="vehicle_claim" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQdJB3Ee6WyucDZQKNpQ" label="auto_make" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQdZB3Ee6WyucDZQKNpQ" label="auto_model" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQdpB3Ee6WyucDZQKNpQ" label="auto_year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQd5B3Ee6WyucDZQKNpQ" label="fraud_reported" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DWRQeJB3Ee6WyucDZQKNpQ" label="_c39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CFGW0J8yEe6Fn7Ql7YTNPA" name="default" dataManager="_DWQpQJB3Ee6WyucDZQKNpQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CFGW0Z8yEe6Fn7Ql7YTNPA" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_ALTjoJ8yEe6Fn7Ql7YTNPA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW0p8yEe6Fn7Ql7YTNPA" label="months_as_customer" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW058yEe6Fn7Ql7YTNPA" label="age" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW1J8yEe6Fn7Ql7YTNPA" label="policy_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW1Z8yEe6Fn7Ql7YTNPA" label="policy_bind_date" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW1p8yEe6Fn7Ql7YTNPA" label="policy_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW158yEe6Fn7Ql7YTNPA" label="policy_csl" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW2J8yEe6Fn7Ql7YTNPA" label="policy_deductable" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW2Z8yEe6Fn7Ql7YTNPA" label="policy_annual_premium" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW2p8yEe6Fn7Ql7YTNPA" label="umbrella_limit" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW258yEe6Fn7Ql7YTNPA" label="insured_zip" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW3J8yEe6Fn7Ql7YTNPA" label="insured_sex" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW3Z8yEe6Fn7Ql7YTNPA" label="insured_education_level" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW3p8yEe6Fn7Ql7YTNPA" label="insured_occupation" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW358yEe6Fn7Ql7YTNPA" label="insured_hobbies" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW4J8yEe6Fn7Ql7YTNPA" label="insured_relationship" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW4Z8yEe6Fn7Ql7YTNPA" label="capital_gains" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW4p8yEe6Fn7Ql7YTNPA" label="capital_loss" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW458yEe6Fn7Ql7YTNPA" label="incident_date" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW5J8yEe6Fn7Ql7YTNPA" label="incident_type" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW5Z8yEe6Fn7Ql7YTNPA" label="collision_type" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW5p8yEe6Fn7Ql7YTNPA" label="incident_severity" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW558yEe6Fn7Ql7YTNPA" label="authorities_contacted" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW6J8yEe6Fn7Ql7YTNPA" label="incident_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW6Z8yEe6Fn7Ql7YTNPA" label="incident_city" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW6p8yEe6Fn7Ql7YTNPA" label="incident_location" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW658yEe6Fn7Ql7YTNPA" label="incident_hour_of_the_day" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW7J8yEe6Fn7Ql7YTNPA" label="number_of_vehicles_involved" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW7Z8yEe6Fn7Ql7YTNPA" label="property_damage" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW7p8yEe6Fn7Ql7YTNPA" label="bodily_injuries" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW758yEe6Fn7Ql7YTNPA" label="witnesses" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW8J8yEe6Fn7Ql7YTNPA" label="police_report_available" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW8Z8yEe6Fn7Ql7YTNPA" label="total_claim_amount" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW8p8yEe6Fn7Ql7YTNPA" label="injury_claim" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW858yEe6Fn7Ql7YTNPA" label="property_claim" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW9J8yEe6Fn7Ql7YTNPA" label="vehicle_claim" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW9Z8yEe6Fn7Ql7YTNPA" label="auto_make" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW9p8yEe6Fn7Ql7YTNPA" label="auto_model" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW958yEe6Fn7Ql7YTNPA" label="auto_year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW-J8yEe6Fn7Ql7YTNPA" label="fraud_reported" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CFGW-Z8yEe6Fn7Ql7YTNPA" label="_c39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
